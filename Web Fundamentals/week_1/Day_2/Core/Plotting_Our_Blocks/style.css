@@ -3,6 +3,7 @@
   height: 610px;
   background-color: silver;
   margin: 0px auto ;
+  padding: 2px;
 }
 .top-nav {
   height: 150px;
@@ -16,7 +17,7 @@
   margin: 20px;
 }
 .main {
-  height: 420px;
+  height: 400px;
   width: 690px;
   background-color: red;
   margin-left: 240px;
@@ -32,7 +33,7 @@
   margin-left: 20px;
   margin-top: 20px;
 }
-#advertisement {
+.advertisement {
   height: 120px;
   width: 620px;
   background-color: purple;
