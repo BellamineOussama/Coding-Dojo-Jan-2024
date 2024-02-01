@@ -22,6 +22,7 @@
     color: white;
     background-color:#17a2b8;
     box-shadow: 5px 5px 5px black;
+    border: 2px solid black;
 }
 a{
     color: white;
