@@ -1,0 +1,34 @@
+.GitHub{
+    margin: 3%;
+    padding: 0% 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: antiquewhite;
+    height: 40%;
+    width: 40%
+}
+img{
+    height: 22%;
+    width: 22%;
+    margin: 5%;
+}
+.code{
+    background-color: #282c34;
+    margin: 1%;
+}
+.DJ{
+    background-color: aquamarine;
+    margin: 1%;
+    text-align: center;
+}
+.money{
+    background-color: white;
+    margin: 1%;
+}
+.info{
+    margin: 1%;
+    font-size: large;
+}
+
