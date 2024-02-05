@@ -17,7 +17,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-left: 45px;
+    margin-left: 150px;
 }
 h1{
     font-size: 32px;
@@ -26,18 +26,18 @@ a{
     color: white;
     text-decoration: none;
 }
-button{
+header > button{
     background-color: #17A2B8;
     color: white;
     height: 30px;
     width: 100px;
-    margin-right: 215px;
+    margin-right: 330px;
     border: none;
 }
 
 /* user-card */
 .user-card{
-    margin: 20px 0px 0px 180px;
+    margin: 20px 0px 0px 280px;
     width: 470px;
     height: 400px;
 }
@@ -98,7 +98,7 @@ h5{
 
 /* Education */
 .all{
-    margin: 10px 0px 0px 180px;
+    margin: 10px 0px 0px 280px;
     width: 470px;
 }
 .title{
@@ -131,7 +131,7 @@ P{
 /* Connection Requests */
 .Connection{
     position: relative;
-    left: 670px;
+    left: 780px;
     bottom: 615px;
     height: 200px;
     width: 300px;
@@ -211,7 +211,7 @@ P{
     height: 350px;
     width: 300px;
     position: relative;
-    left: 670px;
+    left: 780px;
     bottom: 580px;
 }
 .heeead{
