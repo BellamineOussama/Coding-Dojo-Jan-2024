@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nerwork Page</title>
+</head>
+<body>
+    <!-- Nav barr -->
+    <nav>
+        <h1>Network</h1>
+    </nav>
+    <!-- Main Content -->
+    <main>
+        <header>
+            <h1>Your Feed</h1>
+        </header>
+        <!--  content -->
+        <div class="content">
+            <!-- left content -->
+            <div class="left-content">
+                <img src="img/doe.jpg" alt="James Doe">
+                <h3><a href="#">Add an avatar</a></h3> 
+                <h1>James Doe</h1>
+            </div>
+            <!-- right content -->
+            <div class="right-content">
+                <!-- box-one --> 
+                <div class="box-one">
+                    <div class="user">
+                        <h1>Neil M</h1>
+                        <div class="like">
+                            <h2 id="counter1" class="number">9</h2>
+                            <h2>like(s)</h2>
+                        </div>
+                        <button onclick="incrementLikes(1)">Like</button>
+                    </div>
+                    <div class="ph">
+                        <h3>I just set up this new discord bot, let me <br> know what you all think. 
+                        <a href="#">link</a></h3>
+                    </div>
+                </div>
+                <!-- box-two -->
+                <div class="box-two">
+                    <div class="user">
+                        <h1>Nichole K</h1>
+                        <div class="like">
+                            <h2 id="counter2" class="number">12</h2>
+                            <h2>like(s)</h2>
+                        </div>
+                        <button onclick="incrementLikes(2)">Like</button>
+                    </div>
+                    <div class="ph">
+                        <h3>Just finished my <a href="#">next comic</a>, check it out</h3>
+                    </div>
+                </div>
+                <!-- box-three -->
+                <div class="box-three">
+                    <div class="user">
+                        <h1>Jim R</h1>
+                        <div class="like">
+                            <h2 id="counter3" class="number">9</h2>
+                            <h2>like(s)</h2>
+                        </div>
+                        <button onclick="incrementLikes(3)">Like</button>
+                    </div>
+                    <div class="ph">
+                        <h3>I can't stop listening to the <a href="#">new album</a>.
+                        <br>Who elese is liking it</h3>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
