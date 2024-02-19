@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap');
+    </style>
+    <title>Dojo Weather</title>
+</head>
+<body>
+    <!-- Nav Barr -->
+    <nav class="nav-barr">
+        <h1>DojoWeather</h1>
+        <div onclick="weatherReport()">
+            <span id="pays">Burbank</span>
+            <span id="pays"> Chicago</span>
+            <span id="pays">Dallas</span>
+        </div>
+    </nav>
+    <!-- Header -->
+    <header>
+        <h2>San Jose</h2>
+        <form class="temp">
+            <h3>Show temperature in</h3>
+            <select name="temperature" id="">
+                <option value="celsius">°C </option>
+                <option value="fahrenheit">°F</option>
+            </select>
+        </form>
+    </header>
+    <!-- Content -->
+    <main class="disp">
+        <!-- Box One -->
+        <div class="box">
+            <div class="all">
+                <h2>Today</h2>
+                <img src="assets/some_rain.png" alt="rain">
+                <h3>some rain</h3>
+                <div class="deg">
+                    <p id="max">24°</p>
+                    <p id="min">18°</p>
+                </div>
+            </div>
+        </div>
+        <!-- Box Two -->
+        <div class="box">
+            <div class="all">
+                <h2>Tomorrow</h2>
+                <img src="assets/some_sun.png" alt="sun">
+                <h3>some sun</h3>
+                <div class="deg">
+                    <p id="max">27°</p>
+                    <p id="min">19°</p>
+                </div>
+            </div>
+        </div>
+        <!-- Box Three -->
+        <div class="box">
+            <div class="all">
+                <h2>Friday</h2>
+                <img src="assets/some_clouds.png" alt="clouds">
+                <h3>some clouds</h3>
+                <div class="deg">
+                    <p id="max">21°</p>
+                    <p id="min">16°</p>
+                </div>
+            </div>
+        </div>
+        <!-- Box Four -->
+        <div class="box">
+            <div class="all">
+                <h2>Saturday</h2>
+                <img src="assets/some_sun.png" alt="sun">
+                <h3>some sun</h3>
+                <div class="deg">
+                    <p id="max">26°</p>
+                    <p id="min">21°</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Cookie Button  -->
+    <div class="cookie">
+        <img src="assets/cookie.png" alt="cookie">
+        <div class="fix">
+            <h2>Stop! Cookie time</h2>
+            <p>We use cookies(sadly not the edible ones) to personalize <br>
+                content and add, to provide social media features and to <br>
+                analyse our traffic. <a href="#">Read more...</a>
+            </p>
+        </div>
+        <button onclick="removeCookie()">I Accept</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
