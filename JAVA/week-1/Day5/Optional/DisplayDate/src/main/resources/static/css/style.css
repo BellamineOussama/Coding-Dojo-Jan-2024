@@ -1,0 +1,16 @@
+body{
+    color : blue;
+    text-align: center;
+    padding-top: 150px;
+}
+
+div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a{
+    flex: 1;
+    font-size: large;
+}

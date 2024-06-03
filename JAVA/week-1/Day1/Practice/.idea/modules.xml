@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AlfredBot/AlfredBot.iml" filepath="$PROJECT_DIR$/AlfredBot/AlfredBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MapOfTheHashmatique/MapOfTheHashmatique.iml" filepath="$PROJECT_DIR$/MapOfTheHashmatique/MapOfTheHashmatique.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Practice.iml" filepath="$PROJECT_DIR$/.idea/Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Puzzling/Puzzling.iml" filepath="$PROJECT_DIR$/Puzzling/Puzzling.iml" />
+    </modules>
+  </component>
+</project>

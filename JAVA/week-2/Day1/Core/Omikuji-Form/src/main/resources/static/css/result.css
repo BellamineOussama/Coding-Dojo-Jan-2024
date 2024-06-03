@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+.container {
+    width: 30rem;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.response{
+    border: 2px solid black;
+    text-align: center;
+    background-color: #9fc5f8;
+    font-weight:bold;
+}
+
+.link{
+    text-align: center;
+    margin-top: 20px;
+}

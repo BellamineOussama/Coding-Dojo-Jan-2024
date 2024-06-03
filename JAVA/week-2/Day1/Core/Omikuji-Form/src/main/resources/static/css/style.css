@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+.container {
+    width: 30rem;
+}
+
+.select{
+    width:15% ;
+}
+
+.form{
+    border: 2px solid hwb(0 5% 95%);
+    padding: 15px;
+}
+
+.button{
+    text-align: end;
+}

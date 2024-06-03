@@ -1,0 +1,29 @@
+/* Apply the Roboto font */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+h1 {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+table {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+thead th {
+    background-color: #6c757d;
+    color: black;
+}
+tbody tr {
+    transition: background-color 0.2s;
+}
+tbody tr:hover {
+    background-color: #e9ecef;
+}
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}

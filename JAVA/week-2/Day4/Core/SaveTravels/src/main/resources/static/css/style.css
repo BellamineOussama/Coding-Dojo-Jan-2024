@@ -1,0 +1,101 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #343a40;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.table {
+    font-size: 14px;
+}
+
+.table thead th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.btn-submit {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+}
+
+.btn-submit:hover {
+    background-color: #495057;
+}
+
+.scrollable-table {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.form-horizontal .form-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-horizontal .form-group label {
+    min-width: 150px;
+    margin-bottom: 0;
+}
+
+.form-horizontal .form-group .form-control {
+    flex: 1;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.d-flex.justify-content-between.align-items-center {
+    padding: 10px 0;
+}
+
+a.edit-link {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a.edit-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+

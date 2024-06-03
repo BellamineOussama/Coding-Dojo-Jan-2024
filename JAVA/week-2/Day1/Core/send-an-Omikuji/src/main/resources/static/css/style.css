@@ -1,0 +1,79 @@
+@charset "ISO-8859-1";
+/* CSS Reset */
+body, h1, p, form, div, input, select, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+/* Ensure box-sizing is inherited and applied to all elements */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Apply the Roboto font */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Custom styles for the form container */
+.form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px 30px;
+    background: linear-gradient(135deg, #f6f6f6, #ffffff);
+    border: 1px solid #dee2e6;
+    border-radius: .5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive font size adjustments */
+h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #495057;
+}
+
+.form-control, .form-select {
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+textarea.form-control {
+    resize: none;
+    height: 100px;
+}
+
+.btn-primary {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: .25rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.text-center p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.text-center p:hover {
+    color: #343a40;
+}
