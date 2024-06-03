@@ -1,0 +1,22 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color:#9fc5f8;
+    border: 4px solid black; 
+    border-radius: 5px;
+    margin: 10px;
+}
+.play{
+    margin-top: 30px;
+}

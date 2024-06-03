@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEW CAR</title>
+</head>
+<body>
+    <h1>Edit a Car</h1>
+    <hr>
+    <form action="/cars/update/{{car.id}}" method="post">
+
+        <div>
+            <label for="">Make</label>
+            <input type="text" name ="make" value="{{car.make}}">
+        </div>
+        <div>
+            <label for="">Model</label>
+            <input type="text" name ="model" value="{{car.model}}">
+        </div>
+        <div>
+            <label for="">Color</label>
+            <input type="color" name ="color" value="{{car.color}}">
+        </div>
+
+        <button>UPDATE</button>
+
+    </form>
+</body>
+</html>

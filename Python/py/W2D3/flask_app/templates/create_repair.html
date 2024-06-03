@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧰</title>
+</head>
+<body>
+    <h1>Create an Entry</h1>
+    {{id}}
+    <hr>
+    <form action="/repairs/process" method="post">
+        <input type="hidden" name="car_id" value="{{id}}">
+        <div>
+            <label for="">Description</label>
+                <input type="text" name="description">
+        </div>
+        <div>
+            <label >Cost</label>
+                <input type="number" name="cost">
+        </div>
+
+        <button>ADD</button>
+    </form>
+</body>
+</html>

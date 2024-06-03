@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to the ZOO</h1>
+    <hr>
+    <ul>
+        {% for one_animal in animals: %}
+            {% if one_animal.number > 1 %}
+                <li>{{one_animal.name}}</li>
+            {% endif%}
+        {% endfor %}
+    </ul>
+    <h4>The zoo has {{animals|length}} animals</h4>
+
+</body>
+</html>  
