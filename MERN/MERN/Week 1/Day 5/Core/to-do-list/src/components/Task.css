@@ -1,0 +1,19 @@
+.contanier{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    gap: 20px;
+
+}
+.butt{
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.butt:hover{
+    background-color: red;
+}

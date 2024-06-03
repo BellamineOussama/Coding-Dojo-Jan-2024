@@ -1,0 +1,36 @@
+.custom-input {
+    /* Styles personnalisés */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #ccc;
+    
+}
+::placeholder{
+color: black;
+}
+.custom-input:focus {
+/* Styles personnalisés lorsque l'input est en focus */
+border-color: #ccc;
+box-shadow: 0 0 5px #ccc;
+}
+
+.buttn{
+    cursor: pointer;
+    background-color:#0019f8;
+    color: white;
+    height: 50px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+}
+.buttn:hover{
+    background-color: rgb(0, 89, 255);
+}
+.Cont{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    gap: 20px;
+}

@@ -1,0 +1,5 @@
+https://pokeapi.co/api/v2/pokemon/120
+https://pokeapi.co/api/v2/pokemon-color/2
+https://pokeapi.co/api/v2/type/ground
+https://pokeapi.co/api/v2/egg-group/1
+https://pokeapi.co/api/v2/pokemon-form/130

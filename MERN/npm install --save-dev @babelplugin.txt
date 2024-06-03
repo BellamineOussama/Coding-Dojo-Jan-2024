@@ -1,0 +1,72 @@
+react :
+npx create-react-app 
+npm i axios react-router-dom
+npm install --save-dev @babel/plugin-proposal-private-property-in-object
+
+
+
+------------------------------------------------------------------------------------------------------
+
+express :
+
+npm init -y   ou npm i et entry point : server.js , test command : jest --coverage , keywords : NodeJS RestAPIs  Server ... , author : name, licence : MIT,    description : NAME App RestAPIs NodesJS Express ...
+
+package.json : "start": "nodemon server.js"
+
+npm i express
+npm i jest -D
+git init
+touch .gitignore
+nodemon server.js
+----
+npm i => if you make a copy and want to install package-lock.json
+git init
+
+---------------------------------------------------------------------------------------------------------------
+
+mongoDB :
+
+npm i mongoose dotenv 
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+cmd :
+
+mongosh "mongodb+srv://merncluster0.jhdw7xh.mongodb.net/" --apiVersion 1 --username root 
+creation de ddatabase :  use nonm du database
+
+users exmple :
+db.createCollection('users')
+show collections
+db.users.insert({name:"oussama", age:27})
+db.users.find() ==> return array
+db.findOne({name:"x"}) ==> return array
+
+
+
+
+
+full stack :
+npm i cors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://localhost:8000/api/
+
+
+ctl + shift + l ==> bach n7ot el culser 3ala kol (najem nbadel nafess el kilma fi barcha ligne de code ) 
+
+
