@@ -1,0 +1,112 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+/* nav barr */
+nav{
+    background-color: #cccccc;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px ;
+}
+input{
+    width: 450px ;
+    height: 30px ;
+    border: 3px solid black;
+    padding-left: 10px ;
+}
+.btn{
+    background-color: #2b78e4;
+    color: white;
+    width: 60px;
+    height: 30px;
+    border: 3px solid black; 
+    box-shadow: 3px 3px 3px black;
+}
+h1{
+    font-size: 30px;
+}
+main{
+    margin-top:20px ;
+    display: flex;
+}
+/* left section */
+.section-one{
+    flex:3;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid black;
+    height: 240px;
+    width: 700px;
+}
+.part-one{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.part-two{
+    font-size: 25px;
+}
+
+.box-two{
+    margin: 20px 0px;
+    
+}
+h2{
+    font-size: 40px;
+}
+.btnn{
+    width: 120px;
+    height: 50px;
+    background-color: #ffd966;
+    border: 3px solid black;
+    box-shadow: 5px 5px  black;
+    margin: 0px 0px 20px -20px;
+}
+a{
+    color: #085394;
+}
+
+.noun{
+    padding-left: 20px;
+    font-size: 25px;
+}
+.ninja{
+    font-size: 25px;
+    margin-left: -20px;
+    
+}
+/* right section */
+.section-two{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    flex:1;
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+}
+.Doj{
+    font-size: 25px;
+    padding-left: 20px;
+}
+.boutton{
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    background-color: #93c47d;
+    border: 3px solid black;
+    box-shadow: 5px 5px  black;
+}

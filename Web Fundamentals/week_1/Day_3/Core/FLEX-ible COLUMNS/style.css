@@ -1,0 +1,30 @@
+.row{
+    
+    display:  flex;
+    
+}
+.col{
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+}
+.col-2{
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 2 1;
+}
+.col-3{
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 3 1;
+
+}

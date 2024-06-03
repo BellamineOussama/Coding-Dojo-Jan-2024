@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+</head>
+<body>
+    <!-- nav barr -->
+    <nav>
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search">
+        <button class="btn" onclick="turnOff(this)">Login</button> 
+    </nav>
+    <!--  main section -->
+    <main>
+        <!-- left section -->
+        <div class="section-one">
+            <!-- box one -->
+            <div class="box-one box">
+                <!-- left content -->
+                <div class="part-one">
+                    <div>
+                        <h2>ninja</h2>
+                        <p class="noun">noun</p>
+                        <p class="ninja">Plural: ninjas</p>
+                    </div>
+                    <button class="btnn" onclick="clicked()">13 likes</button>
+                </div>
+                <!--  right content -->
+                <p class="part-two">
+                    A practitioner skilled in the <br> <a href="#">Japanese</a> art
+                    of <a href="#"> ninjutsu</a>
+                </p>
+            </div>
+            <!-- box two -->
+            <div  class="box-two box" >
+                <div class="part-one">
+                    <div>
+                        <h2>ninja</h2>
+                        <p class="noun">noun</p>
+                        <p class="ninja">Plural: ninjas</p>
+                    </div>
+                    <button class="btnn">37 likes</button>
+                </div>
+                <p class="part-two">A <a href="#">programmer</a> who breaks <br> down problems with 
+                    <a href="#">zen</a>-like <br> focus
+                </p>
+            </div>  
+        </div>
+        <!-- right section -->
+        <div class="section-two">
+            <p class="Doj">Dojonary is <br> defined by <strong>YOU</strong></p>
+            <button class="boutton" id="mybutton" onclick="removebutton()">Add Definition</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
