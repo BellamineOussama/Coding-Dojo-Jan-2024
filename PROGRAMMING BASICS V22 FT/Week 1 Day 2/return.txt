@@ -1,0 +1,90 @@
+**Code Snippet 1 : ==> Output: hello
+                               Dojo
+ T-Diagram : var : hello()
+             value : 'hello'  
+-----------------------------------------------------------------------  
+
+**Code Snippet 2 : ==> Output : hello
+			                    result is 15    
+  T-Diagram : var : result 
+	          value : 15
+-----------------------------------------------------------------------
+
+**Code Snippet 3 : ==> Output: nmu is 3
+                               result is 18
+  T-Diagram : var: result
+              value : 15+3=18  <== num=3
+-----------------------------------------------------------------------
+
+**Code Snippet 4 : ==> Output: 15,10,10,15
+  T-Diagram : var: num , result
+              value : 15 , 10       <==   num2=10
+-----------------------------------------------------------------------
+
+**Code Snippet 5 : ==> Output: 15,10,20,15
+    T-Diagram : var: num , result
+                value : 15 , 10*2=20      <==   num2=10
+-----------------------------------------------------------------------
+
+**Code Snippet 6 : ==> Output: num is 3
+                               num is 5
+                               result is 16
+  T-Diagram : var: y        
+              value:3*2=6(num=3) and 5*2=10(num=5)
+              var : result
+              value : 6+10=16
+-----------------------------------------------------------------------
+                               
+**Code Snippet 7 : ==> Output:5
+                              8
+  T-Diagram : var : sumNums(2,3) , sumNums(3,5)
+              value: 2+3=5       , 3+5=8
+-----------------------------------------------------------------------
+
+**Code Snippet 8 : ==> Output:2
+                              5
+                              3
+                              8
+  T-Diagram : num1=2
+              var : x
+              value : printSumNums(2,3) ==> return 2+3=5
+              num1=3
+              var : y
+              value : printSumNums(3,5) ==> return 3+5=8
+-----------------------------------------------------------------------
+
+**Code Snippet 9 : ==> Output: sum is 5
+                               sum is 8
+                               result is 13
+  T-Diagram : var : sum
+              value : 2+3=5
+              var : sum
+              value : 3+5=8
+              var : result
+              value 5+8=13 
+-----------------------------------------------------------------------
+
+** code snippet 10 : ==> Output: sum is 5
+                                 sum is 3
+                                 sum is 6
+                                 sum is 3
+                                 sum is 5
+                                 sum is 8
+                                 result is 19
+  T-Diagram : var : sum
+              value : 2+3=5
+              var : sum
+              value : 2+1=3
+              var : sum
+              value : 3+3=6
+              var : sum
+              value : 2+1=3
+              var : sum
+              value : 2+3=5
+              var : sum
+              value : 3+5=8
+              var : result
+              value : 5+6+8=19 
+            
+
+ 
