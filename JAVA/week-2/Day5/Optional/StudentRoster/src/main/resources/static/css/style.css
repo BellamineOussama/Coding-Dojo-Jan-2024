@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+.container {
+    margin-top: 50px;
+}
+h1 {
+    color: #007bff;
+    margin-bottom: 30px;
+}
+.btn {
+    font-size: 16px;
+}
+table {
+    background-color: #fff;
+}
+th, td {
+    vertical-align: middle !important;
+}
+.action-buttons {
+    margin-top: 20px;
+}
+.add-dorm-button {
+    margin-bottom: 10px;
+}
+.see-students-button {
+    margin-right: 10px;
+}
+.table-container {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
