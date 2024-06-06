@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Msi
-  Date: 03/06/2024
-  Time: 04:32
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
@@ -16,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/style.css">
     <!-- Include Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <title>Title</title>
+    <title>Dojo Details</title>
 </head>
 <body>
 <div class="container">
@@ -52,7 +45,6 @@
         </div>
     </div>
 </div>
-
 
 <script src="${pageContext.request.contextPath}/webjars/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
 </body>

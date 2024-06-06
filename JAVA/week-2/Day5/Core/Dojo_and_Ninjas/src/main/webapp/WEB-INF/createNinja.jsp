@@ -22,7 +22,7 @@
 <div class="container">
     <h1>New Ninja 🥷</h1>
     <hr/>
-    <form:form action="${pageContext.request.contextPath}/ninjas/new" method="post" modelAttribute="ninja" class="mt-3">
+    <form:form action="${pageContext.request.contextPath}/ninjas/processNinja" method="post" modelAttribute="ninja" class="mt-3">
         <div class="mb-3">
             <form:label path="dojo" cssClass="form-label">Dojo:</form:label>
             <form:select path="dojo" cssClass="form-select">

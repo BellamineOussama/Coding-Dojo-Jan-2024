@@ -22,7 +22,7 @@ public class Dojo {
     private String name;
 
     // --------- ONE TO MANY ----------
-    @OneToMany(mappedBy ="dojo", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy ="dojo", fetch = FetchType.EAGER)
     private List<Ninja> ninjas;
 
     // This will not allow the createdAt column to be updated after creation

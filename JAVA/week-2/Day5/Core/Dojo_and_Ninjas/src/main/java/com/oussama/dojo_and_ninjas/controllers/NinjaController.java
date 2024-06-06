@@ -33,7 +33,7 @@ public class NinjaController {
         return "createNinja";
     }
 
-    @PostMapping("/new")
+    @PostMapping("/processNinja")
     public String create(
             @Valid @ModelAttribute("ninja") Ninja ninja,
             BindingResult result,
@@ -46,18 +46,9 @@ public class NinjaController {
         } else {
             ninjaService.createNinja(ninja);
             flash.addFlashAttribute("success", "Awesome! You have added a new ninja 🥷 ");
-            return "redirect:/ninjas/dojo/" + ninja.getDojo().getId(); // Redirect to display all ninjas of the dojo
+            return "redirect:/dojos/" + ninja.getDojo().getId(); // Redirect to the dojos show page
         }
     }
 
-    @GetMapping("/dojo/{dojoId}")
-    public String listNinjas(@PathVariable Long dojoId, Model model) {
-        Dojo dojo = dojoService.findDojo(dojoId);
-        if (dojo != null) {
-            model.addAttribute("dojo", dojo);
-            return "listNinjas"; // Ensure this matches your JSP file for listing ninjas
-        } else {
-            return "redirect:/dojos"; // Redirect to a suitable page if the dojo is not found
-        }
-    }
+
 }

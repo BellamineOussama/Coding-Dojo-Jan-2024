@@ -25,8 +25,8 @@ public class NinjaService {
     }
 
     // CREATE
-    public Ninja createNinja(Ninja b) {
-        return NinjaRepository.save(b);
+    public Ninja createNinja(Ninja ninja) {
+        return NinjaRepository.save(ninja);
     }
 
     // READ ONE

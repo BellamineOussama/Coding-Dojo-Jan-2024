@@ -20,9 +20,9 @@
 </head>
 <body>
 <div class="container">
-    <h1>New Ninja 🥷</h1>
+    <h1>New Dojos </h1>
     <hr/>
-    <form:form action="${pageContext.request.contextPath}ninjas/dojo/{dojoId}" method="post" modelAttribute="dojo" class="mt-3">
+    <form:form action="${pageContext.request.contextPath}/dojos/processDojo" method="post" modelAttribute="dojo" class="mt-3">
         <div class="mb-3">
             <form:label path="name" cssClass="form-label"> Name:</form:label>
             <form:errors path="name" cssClass="text-danger"/>

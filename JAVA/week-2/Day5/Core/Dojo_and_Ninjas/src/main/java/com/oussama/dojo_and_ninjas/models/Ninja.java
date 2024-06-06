@@ -30,7 +30,7 @@ public class Ninja {
 
 
     // -------------------------------- MANY TO ONE --------------------------------
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "dojo_id")
     private Dojo dojo;
 

@@ -30,7 +30,7 @@ public class DojoController {
     }
 
     // -------------------------------- ACTION ROUTE --------------------------
-    @PostMapping("/new")
+    @PostMapping("/processDojo")
     public String createDojo(
             @Valid @ModelAttribute("dojo") Dojo dojo,
             BindingResult result,
@@ -41,7 +41,7 @@ public class DojoController {
             return "dojos/dojo";
         } else {
             dojoService.createDojo(dojo);
-            return "redirect:/dojos";
+            return "redirect:/dojos/new";
         }
     }
 

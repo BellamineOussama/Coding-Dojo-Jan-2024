@@ -25,14 +25,21 @@ public class DojoService {
     }
 
     // CREATE
-    public Dojo createDojo(Dojo b) {
-        return dojoRepository.save(b);
+    public Dojo createDojo(Dojo dojo) {
+        return dojoRepository.save(dojo);
     }
 
     // READ ONE
     public Dojo findDojo(Long id) {
         Optional<Dojo> optionalDojo = dojoRepository.findById(id);
         return optionalDojo.orElse(null);
+    }
+
+
+    // SHOW ONE DOJO
+    public Dojo showDojoById(Long id) {
+        Optional<Dojo> dojo = dojoRepository.findById(id);
+        return dojo.orElse(null);
     }
 
     // UPDATE
