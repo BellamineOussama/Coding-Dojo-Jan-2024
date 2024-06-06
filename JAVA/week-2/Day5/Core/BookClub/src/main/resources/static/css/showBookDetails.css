@@ -1,0 +1,25 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 800px;
+    margin-top: 2rem;
+}
+.btn-back {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+}
+.btn-back:hover {
+    color: #0056b3;
+}
+.thoughts {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.text-right {
+    text-align: right;
+}
